@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    NSArray *dataArray;
+    NSArray *searchedDataArray;
+}
+@property (weak, nonatomic) IBOutlet UITableView *mTableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *mSearchBar;
 
 @end
 
